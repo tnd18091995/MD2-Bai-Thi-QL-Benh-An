@@ -1,6 +1,8 @@
 package model;
 
-public class BenhAnVIP extends BenhAn {
+import java.io.Serializable;
+
+public class BenhAnVIP extends BenhAn implements Serializable {
     private String loaiVIP;
     private String thoiHanVIP;
 

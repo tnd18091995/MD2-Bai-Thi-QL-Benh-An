@@ -1,6 +1,8 @@
 package model;
 
-public class BenhAnThuong extends BenhAn {
+import java.io.Serializable;
+
+public class BenhAnThuong extends BenhAn implements Serializable {
     private double phiNamVien;
 
     public BenhAnThuong(int stt, String maBenhAn, String maBenhNhan, String tenBenhNhan, String ngayNhapVien, String ngayRaVien, String lyDoVaoVien, double phiNamVien) {
